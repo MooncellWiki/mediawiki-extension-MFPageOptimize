@@ -1,0 +1,23 @@
+{
+	"name": "MFPageOptimize",
+	"version": "1.0.0",
+	"author": [
+		"StarHeartHunt"
+	],
+	"url": "https://github.com/MooncellWiki/MFPageOptimize",
+	"descriptionmsg": "mcappoptimization-desc",
+	"type": "other",
+	"license-name": "MIT",
+	"MessagesDirs": {
+		"MFPageOptimize": [
+			"i18n"
+		]
+	},
+	"Hooks": {
+		"BeforePageDisplayMobile":"MFPageOptimize::onBeforePageDisplayMobile"
+	},
+	"AutoloadClasses": {
+		"MFPageOptimize": "MFPageOptimize.class.php"
+	},
+	"manifest_version": 2
+}
