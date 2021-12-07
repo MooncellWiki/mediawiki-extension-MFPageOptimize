@@ -14,7 +14,7 @@
 		]
 	},
 	"Hooks": {
-		"BeforePageDisplayMobile":"MFPageOptimize::onBeforePageDisplayMobile"
+		"BeforePageDisplayMobile": "MFPageOptimize::onBeforePageDisplayMobile"
 	},
 	"AutoloadClasses": {
 		"MFPageOptimize": "MFPageOptimize.class.php"
